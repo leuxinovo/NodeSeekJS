@@ -52,7 +52,7 @@
       <!-- Footer Section -->
       <div style="margin-top: 20px; display: flex; justify-content: flex-end; color: #ccc; font-size: 12px;">
         <span style="margin-right: 5px;">Support ID:</span>
-        <span style="font-weight: bold;">31</span>
+        <span style="font-weight: bold;">74</span>
       </div>
     </div>
   `;
