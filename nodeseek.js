@@ -1,14 +1,13 @@
-// card-script.js
+// nodeseek.js
 
 (function () {
-  // 创建容器
   const container = document.getElementById("card-container");
-  const width = container.style.getPropertyValue("--card-width") || "300px"; // 默认宽度
-
-  // 锁定比例（假设原始宽高比为 310:215）
+  const width = container.style.getPropertyValue("--card-width") || "300px";
   const height = `calc(${width} * 215 / 310)`;
 
-  // 样式和内容 HTML
+  // 从 data-support-id 属性读取
+  const supportId = container.getAttribute("data-support-id") || "";
+
   container.style.position = "relative";
   container.style.width = width;
   container.style.height = height;
@@ -32,7 +31,7 @@
       <!-- Header Section -->
       <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
         <div style="display: flex; align-items: center; gap: 10px;">
-          <a href="https://yxvm.com/" target="_blank"><img src="https://img.leu.pp.ua/file/图片/1753587678656_IMG_3481.png" alt="Logo 1" style="height: 22px;"></a>
+          <a href="https://yxvm.com/" target="_blank"><img src="https://img.leu.pp.ua/file/图片/1753588260924_p6C6H5pY.png" alt="Logo 1" style="height: 22px;"></a>
           <span style="font-weight: bold; font-size: 1.2rem;">+</span>
           <a href="https://www.nodeseek.com/" target="_blank"><img src="https://img.leu.pp.ua/file/图片/1753587680432_IMG_3480.png" alt="Logo 2" style="height: 22px;"></a>
         </div>
@@ -52,7 +51,7 @@
       <!-- Footer Section -->
       <div style="margin-top: 20px; display: flex; justify-content: flex-end; color: #ccc; font-size: 12px;">
         <span style="margin-right: 5px;">Support ID:</span>
-        <span style="font-weight: bold;">74</span>
+        <span style="font-weight: bold;">${supportId}</span>
       </div>
     </div>
   `;
