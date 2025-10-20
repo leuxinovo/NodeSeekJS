@@ -31,7 +31,7 @@
       <!-- Header Section -->
       <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
         <div style="display: flex; align-items: center; gap: 10px;">
-          <a href="https://yxvm.com/" target="_blank"><img src="https://img.leu.pp.ua/file/图片/1753588260924_p6C6H5pY.png" alt="Logo 1" style="height: 22px;"></a>
+          <a href="https://yxvm.com/" target="_blank"><img src="https://img.leu.pp.ua/file/图片/1760981086510_IMG_3678.png" alt="Logo 1" style="height: 22px;"></a>
           <span style="font-weight: bold; font-size: 1.2rem;">+</span>
           <a href="https://www.nodeseek.com/" target="_blank"><img src="https://img.leu.pp.ua/file/图片/1753589640446_kdMyXovu.png" alt="Logo 2" style="height: 22px;"></a>
         </div>
